@@ -5,8 +5,8 @@ const projects = [
         title: 'tripmate-web',
         description: '일정 공유 및 관리가 가능한 여행 메이트 플랫폼 웹 버전입니다.',
         image: '/images/tripmate-web.png',
-        github: 'https://github.com/TAEYEN02/TripMate_Project',
-        demo: 'https://app.tripmateweb.store',
+        github: 'https://github.com/TAEYEN02/TripMate_Project  → 아이디 : kty2331 / 비밀번호 : patty2331@',
+        demo: 'https://www.tripmateweb.store',
         techStack: ['React', 'Node.js', 'MySQL', 'Spring Boot'],
         features: ['일정 등록 및 공유', '지도 기반 일정 보기', '자동 일정 추천 기능', '공유 일정에 대한 로그인 사용자들의 좋아요/댓글 기능', '장소 추천 기능'],
         period: '2025.06.30 ~ 2025.07.19',
@@ -37,8 +37,8 @@ Firebase 인증 및 실시간 데이터베이스 연동을 통해 사용자 간 
         title: 'board-web',
         description: '자유게시판 기능이 포함된 커뮤니티 웹사이트입니다.',
         image: '/images/board-web.png',
-        github: 'https://github.com/TAEYEN02/BoardWeb',
-        demo: 'https://app.taeyeon02.store',
+        github: 'https://github.com/TAEYEN02/BoardWeb → 아이디 : kty2331 / 비밀번호 : patty2331@',
+        demo: 'https://www.taeyeon02.store',
         techStack: ['React', 'Spring Boot', 'MySQL', 'AWS(EB)', 'Node.js'],
         features: ['회원가입/로그인', '글 작성/수정/삭제', '댓글 기능'],
         period: '2025.06.20 - 2025.07.18',
@@ -52,9 +52,9 @@ JWT 인증 처리, 예외 핸들링, 요청-응답 구조를 명확히 정리하
         id: 5,
         title: '간단한 쇼핑몰 API 서버 구축',
         description: 'Spring Boot와 JWT로 사용자 인증, 상품 관리, 장바구니, 주문 기능을 구현한 RESTful 쇼핑몰 API 서버입니다.',
-        image: '/images/shopping_mall_api.jpg',
+        image: '/images/swagger.jpg',
         github: 'https://github.com/TAEYEN02/Shopping_mall_backendAPI',
-        demo: '',
+        demo: 'https://shoppingmallbackendapi-production.up.railway.app/swagger-ui/index.html → cicd 오류 해결' ,
         techStack: ['Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'Swagger'],
         features: [
             '회원가입 및 JWT 기반 로그인/인증',
@@ -63,7 +63,7 @@ JWT 인증 처리, 예외 핸들링, 요청-응답 구조를 명확히 정리하
             '주문 생성 및 주문 상태 관리',
             'Swagger 기반 API 문서 자동화',
         ],
-        period: '2025.07.26 ~ 진행 중',
+        period: '2025.07.26 ~ (현재 배포중)',
         role: '백엔드 전반 설계 및 개발 (100%)',
         learnings: `
         JWT 기반 인증과 Spring Security 설정을 공부하며 보안 흐름을 점차 이해하고 있고, 
@@ -86,24 +86,6 @@ JWT 인증 처리, 예외 핸들링, 요청-응답 구조를 명확히 정리하
 Firebase 및 STT/TTS API 통합 중 발생한 예외 상황을 해결하며 모바일 환경에서의 실시간 데이터 처리 및 안정성 확보 경험을 쌓았습니다. 
 또한 팀장 역할을 수행하며 기획부터 개발, 배포까지의 전체 사이클을 리딩하며 프로젝트 관리 및 커뮤니케이션 능력을 향상시켰습니다.`
     },
-    {
-        id: 6,
-        title: '마이크로서비스 아키텍처 실습 프로젝트',
-        description: 'Spring Boot 기반 마이크로서비스 아키텍처를 설계하고 Docker, CI/CD 환경을 구축한 실습 프로젝트입니다.',
-        image: '/images/congestion-map.png',
-        github: '',
-        demo: '',
-        techStack: ['Spring Boot', 'Docker', 'Docker Compose', 'GitHub Actions', 'JWT', 'MySQL', 'Nginx', 'API Gateway'],
-        features: [
-            '서비스별 독립적인 인증, 상품, 주문, 장바구니 마이크로서비스 분리',
-            'Docker를 활용한 서비스 컨테이너화 및 로컬 개발 환경 구성',
-            'GitHub Actions 기반 CI/CD 파이프라인 구축으로 자동 빌드 및 배포',
-            'JWT 기반 인증과 API Gateway를 통한 요청 라우팅 및 보안 강화'
-        ],
-        period: '2025.08 - 2025.09 (예정)',
-        role: '프로젝트 기획, 마이크로서비스 설계 및 구현, Docker 컨테이너화, CI/CD 파이프라인 설정',
-    }
-
 ];
 
 export default projects;
