@@ -79,7 +79,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          안녕하세요! 백엔드 개발자 김태연입니다
+          안녕하세요! 서버부터 화면까지 아우르며 서비스를 완성해가는 개발자 김태연입니다.
         </Heading>
         <Paragraph
           initial={{ opacity: 0 }}
